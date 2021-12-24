@@ -1,6 +1,6 @@
 plugins {
     id 'java'
-    id 'fabric-loom' version '0.8-SNAPSHOT'
+    id 'fabric-loom' version '0.10-SNAPSHOT'
 }
 
 repositories {
@@ -8,8 +8,8 @@ repositories {
     maven { url "https://maven.terraformersmc.com/"}
 }
 
-sourceCompatibility = JavaVersion.VERSION_1_8
-targetCompatibility = JavaVersion.VERSION_1_8
+sourceCompatibility = JavaVersion.VERSION_17
+targetCompatibility = JavaVersion.VERSION_17
 
 group = project.maven_group
 version = "${project.mod_version}+${project.minecraft_version}"
