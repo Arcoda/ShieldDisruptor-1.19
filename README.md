@@ -14,7 +14,7 @@ By default it hides the shield when not blocking and the totem of undying.
 This is a port of the original ShieldDisruptor by [HeyZeer0](https://github.com/HeyZeer0) to newer Minecraft versions, as the original is abandoned. I'll try to maintain this as best as possible.
 
 **Current Differences:**
-- Updated to 1.16.5
+- Updated to 1.18.1
 - Added Config screen title
 - Added German translation
 - Internal updates to Loom, Fabric etc. and the Gradle build system
