@@ -42,11 +42,11 @@ public class MixinHeldItemRenderer {
         }
 
         // Check if the item has a tag that was specified in config
-        for(Identifier i : ItemTags.getTagGroup().getTagsFor(stack.getItem())) {
+       /* for(Identifier i : ItemTags.getTagGroup().getTagsFor(stack.getItem())) {
             if (ModCore.getMain().getGeneralConfig().hiddenItems.contains('#' + i.toString())) {
                 callback.cancel();
             }
-        }
+        } */
     }
 
 }
